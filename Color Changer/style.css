@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+button {
+    font-size: 24px;
+    padding: 10px 20px;
+    border: 3px solid hsla(0, 0%, 0%, 0.5);
+    border-radius: 40px;
+    cursor: pointer;
+    background: transparent;
+}
+button:hover {
+    opacity: 50%;
+}
+button:active {
+    opacity: 1;
+    border: 3px solid #777;
+}
